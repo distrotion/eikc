@@ -1,0 +1,84 @@
+<?php
+
+namespace app\models;
+
+use Yii;
+
+/**
+ * This is the model class for table "{{%packages}}".
+ *
+ * @property integer $id
+ * @property string $th_title
+ * @property string $en_title
+ * @property string $th_caption
+ * @property string $en_caption
+ * @property integer $location
+ * @property string $th_desc
+ * @property string $en_desc
+ * @property string $th_left_text
+ * @property string $en_left_text
+ * @property string $th_right_text
+ * @property string $en_right_text
+ * @property string $th_thumb_image
+ * @property string $en_thumb_image
+ * @property string $th_image
+ * @property string $en_image
+ * @property integer $show_first
+ * @property integer $index_weight
+ * @property integer $active
+ * @property integer $update_time
+ * @property integer $create_time
+ */
+class Packages extends \yii\db\ActiveRecord
+{
+    /**
+     * @inheritdoc
+     */
+    public static function tableName()
+    {
+        return '{{%packages}}';
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function rules()
+    {
+        return [
+            [['th_title', 'en_title', 'location', 'th_thumb_image', 'en_thumb_image', 'th_image', 'en_image', 'show_first', 'index_weight', 'active', 'update_time', 'create_time'], 'required'],
+            [['location', 'show_first', 'index_weight', 'active', 'update_time', 'create_time'], 'integer'],
+            [['th_desc', 'en_desc', 'th_left_text', 'en_left_text', 'th_right_text', 'en_right_text'], 'string'],
+            [['th_title', 'en_title', 'th_caption', 'en_caption', 'th_thumb_image', 'en_thumb_image', 'th_image', 'en_image'], 'string', 'max' => 255]
+        ];
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public function attributeLabels()
+    {
+        return [
+            'id' => 'ID',
+            'th_title' => 'Th Title',
+            'en_title' => 'En Title',
+            'th_caption' => 'Th Caption',
+            'en_caption' => 'En Caption',
+            'location' => 'Location',
+            'th_desc' => 'Th Desc',
+            'en_desc' => 'En Desc',
+            'th_left_text' => 'Th Left Text',
+            'en_left_text' => 'En Left Text',
+            'th_right_text' => 'Th Right Text',
+            'en_right_text' => 'En Right Text',
+            'th_thumb_image' => 'Th Thumb Image',
+            'en_thumb_image' => 'En Thumb Image',
+            'th_image' => 'Th Image',
+            'en_image' => 'En Image',
+            'show_first' => 'Show First',
+            'index_weight' => 'Index Weight',
+            'active' => 'Active',
+            'update_time' => 'Update Time',
+            'create_time' => 'Create Time',
+        ];
+    }
+}

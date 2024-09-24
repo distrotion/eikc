@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/arturoliveira/yii2-excelview" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/bower-asset/bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/bower-asset/jquery" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/bower-asset/jquery.inputmask" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/bower-asset/punycode" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/bower-asset/typeahead.js" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/bower-asset/yii2-pjax" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/bower/bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/bower/jquery" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/bower/jquery.inputmask" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/bower/punycode" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/bower/typeahead.js" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/bower/yii2-pjax" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/cebe/markdown" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/dektrium/yii2-user" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/ezyang/htmlpurifier" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/kartik-v/bootstrap-fileinput" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/kartik-v/yii2-grid" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/kartik-v/yii2-krajee-base" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/kartik-v/yii2-slider" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/kartik-v/yii2-sortable" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/kartik-v/yii2-sortable-input" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/kartik-v/yii2-widget-fileinput" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/kartik-v/yii2-widget-touchspin" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpoffice/phpexcel" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/phpspec/php-diff" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/yiisoft/yii2" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/yiisoft/yii2-authclient" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/yiisoft/yii2-bootstrap" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/yiisoft/yii2-codeception" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/yiisoft/yii2-composer" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/yiisoft/yii2-debug" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/yiisoft/yii2-faker" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/yiisoft/yii2-gii" />
+      <excludeFolder url="file://$MODULE_DIR$/www/vendor/yiisoft/yii2-swiftmailer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
